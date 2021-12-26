@@ -1,0 +1,17 @@
+{
+    "name": "jddev2381/php-mvc-framework",
+    "autoload": {
+        "psr-4": {
+            "Jddev2381\\PhpMvcFramework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JD Simpkins",
+            "email": "jd@huntingtonwebsolutions.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
