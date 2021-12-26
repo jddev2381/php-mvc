@@ -1,14 +1,14 @@
 <?php
 
 
-namespace app\core\exceptions;
+namespace jddev2381\phpmvc\exceptions;
 
 
 /**
  * Class ForbiddenException
  * 
  * @author JD Simpkins <jd@huntingtonwebsolutions.com>
- * @package app\core\exceptions
+ * @package jddev2381\phpmvc\exceptions
  */
 
 class ForbiddenException extends \Exception {

@@ -1,9 +1,9 @@
 <?php
 
 
-namespace app\core;
+namespace jddev2381\phpmvc;
 
-use app\core\db\DbModel;
+use jddev2381\phpmvc\db\DbModel;
 
 
 /**

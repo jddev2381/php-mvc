@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core\exceptions;
+namespace jddev2381\phpmvc\exceptions;
 
 /**
  * Class NotFoundException
  *
  * @author JD Simpkins <jd@huntingtonwebsolutions.com>
- * @package app\core\exceptions
+ * @package jddev2381\phpmvc\exceptions
  */
 class NotFoundException extends \Exception
 {

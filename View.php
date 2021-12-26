@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace jddev2381\phpmvc;
 
 class View
 {

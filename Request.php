@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace jddev2381\phpmvc;
 
 /**
  * Class Request
  * 
  * @author JD Simpkins <jd@huntingtonwebsolutions.com>
- * @package app\core
+ * @package jddev2381\phpmvc
  */
 
 class Request {

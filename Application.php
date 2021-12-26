@@ -1,20 +1,20 @@
 <?php
 
-namespace app\core;
+namespace jddev2381\phpmvc;
 
-use app\core\Router;
-use app\core\Request;
-use app\core\Response;
-use app\core\db\Database;
-use app\core\Session;
-use app\core\db\DbModel;
-use app\core\View;
+use jddev2381\phpmvc\Router;
+use jddev2381\phpmvc\Request;
+use jddev2381\phpmvc\Response;
+use jddev2381\phpmvc\db\Database;
+use jddev2381\phpmvc\Session;
+use jddev2381\phpmvc\db\DbModel;
+use jddev2381\phpmvc\View;
 
 /**
  * Class Application
  * 
  * @author JD Simpkins <jd@huntingtonwebsolutions.com>
- * @package app\core
+ * @package jddev2381\phpmvc
  */
 
 class Application {
@@ -68,14 +68,14 @@ class Application {
 
     }
 
-    public function getController(): \app\core\Controller {
+    public function getController(): \jddev2381\phpmvc\Controller {
         return $this->controller;
     }
 
     /**
-     * @param \app\core\Controller $controller
+     * @param \jddev2381\phpmvc\Controller $controller
      */
-    public function setController(\app\core\Controller $controller): void {
+    public function setController(\jddev2381\phpmvc\Controller $controller): void {
         $this->controller = $controller;
     }
 

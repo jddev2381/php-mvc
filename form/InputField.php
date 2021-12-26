@@ -1,15 +1,15 @@
 <?php
 
 
-namespace app\core\form;
+namespace jddev2381\phpmvc\form;
 
-use app\core\Model;
+use jddev2381\phpmvc\Model;
 
 /**
  * Class Field
  * 
  * @author JD Simpkins <jd@huntingtonwebsolutions.com>
- * @package app\core\form
+ * @package jddev2381\phpmvc\form
  */
 
 

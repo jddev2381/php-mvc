@@ -1,17 +1,17 @@
 <?php
 
 
-namespace app\core;
+namespace jddev2381\phpmvc;
 
-use app\core\Request;
-use app\core\Response;
-use app\core\exceptions\NotFoundException;
+use jddev2381\phpmvc\Request;
+use jddev2381\phpmvc\Response;
+use jddev2381\phpmvc\exceptions\NotFoundException;
 
 /**
  * Class Router
  * 
  * @author JD Simpkins <jd@huntingtonwebsolutions.com>
- * @package app\core
+ * @package jddev2381\phpmvc
  */
 
 class Router {
@@ -23,8 +23,8 @@ class Router {
     /**
      * Router Constructor
      * 
-     * @param \app\core\Request $request
-     * @param \app\core\Response $response
+     * @param \jddev2381\phpmvc\Request $request
+     * @param \jddev2381\phpmvc\Response $response
      */
 
     public function __construct(Request $request, Response $response) {
@@ -52,7 +52,7 @@ class Router {
             return Application::$app->view->renderView($callback);
         }
         if(is_array($callback)) {
-            /** @var \app\core\Controller $controller */
+            /** @var \jddev2381\phpmvc\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

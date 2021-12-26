@@ -1,17 +1,17 @@
 <?php
 
 
-namespace app\core\db;
+namespace jddev2381\phpmvc\db;
 
-use app\core\Application;
-use app\core\Model;
+use jddev2381\phpmvc\Application;
+use jddev2381\phpmvc\Model;
 
 
 /**
  * Class DbModel
  * 
  * @author JD Simpkins <jd@huntingtonwebsolutions.com>
- * @package app\core
+ * @package jddev2381\phpmvc
  */
 
 abstract class DbModel extends Model {

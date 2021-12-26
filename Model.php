@@ -1,7 +1,7 @@
 <?php
 
 
-namespace app\core;
+namespace jddev2381\phpmvc;
 
 
 
@@ -9,7 +9,7 @@ namespace app\core;
  * Class Model
  * 
  * @author JD Simpkins <jd@huntingtonwebsolutions.com>
- * @package app\core
+ * @package jddev2381\phpmvc
  */
 
 

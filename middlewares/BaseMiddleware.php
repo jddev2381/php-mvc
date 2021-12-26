@@ -1,14 +1,14 @@
 <?php
 
 
-namespace app\core\middlewares;
+namespace jddev2381\phpmvc\middlewares;
 
 
 /**
  * Class BaseMiddleware
  * 
  * @author JD Simpkins <jd@huntingtonwebsolutions.com>
- * @package app\core\middlewares
+ * @package jddev2381\phpmvc\middlewares
  */
 
 abstract class BaseMiddleware {

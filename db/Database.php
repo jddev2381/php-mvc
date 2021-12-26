@@ -1,17 +1,17 @@
 <?php
 
 
-namespace app\core\db;
+namespace jddev2381\phpmvc\db;
 
 
 
-use app\core\Application;
+use jddev2381\phpmvc\Application;
 
 /**
  * Class Database
  * 
  * @author JD Simpkins <jd@huntingtonwebsolutions.com>
- * @package app\core
+ * @package jddev2381\phpmvc
  */
 
 

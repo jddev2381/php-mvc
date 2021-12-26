@@ -1,15 +1,15 @@
 <?php
 
-namespace app\core;
+namespace jddev2381\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
-use app\core\middlewares\AuthMiddleware;
+use jddev2381\phpmvc\middlewares\BaseMiddleware;
+use jddev2381\phpmvc\middlewares\AuthMiddleware;
 
 /**
  * Class Controller
  * 
  * @author JD Simpkins <jd@huntingtonwebsolutions.com>
- * @package app\core
+ * @package jddev2381\phpmvc
  */
 
  class Controller {
@@ -18,7 +18,7 @@ use app\core\middlewares\AuthMiddleware;
     public string $layout = 'main-layout';
     public string $action = '';
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \jddev2381\phpmvc\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 

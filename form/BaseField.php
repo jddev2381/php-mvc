@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace jddev2381\phpmvc\form;
 
-use app\core\Model;
+use jddev2381\phpmvc\Model;
 
 abstract class BaseField
 {
@@ -13,7 +13,7 @@ abstract class BaseField
 
     /**
      * Field Constructor
-     * @param \app\core\Model $model
+     * @param \jddev2381\phpmvc\Model $model
      * @param string          $attribute
      */
     public function __construct(Model $model, string $attribute) {

@@ -11,6 +11,11 @@
             "email": "jd@huntingtonwebsolutions.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "jddev2381\\phpmvc": "./"
+        }
+    },
     "require": {
         "vlucas/phpdotenv": "^5.4"
     }

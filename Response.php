@@ -1,14 +1,14 @@
 <?php
 
 
-namespace app\core;
+namespace jddev2381\phpmvc;
 
 
 /**
  * Class Response
  * 
  * @author JD Simpkins <jd@huntingtonwebsolutions.com>
- * @package app\core
+ * @package jddev2381\phpmvc
  */
 
  class Response {
